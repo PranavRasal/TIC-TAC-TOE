@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranav</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body> 
+     <h1 id="h">tic-tac-toe</h1>
+     <div class="game-settings">
+        <div class="mode-select">
+            <button class="mode-btn active" data-mode="two-player">Two Players</button>
+            <button class="mode-btn" data-mode="computer">vs Computer</button>
+        </div>
+        <div class="difficulty-select hide">
+            <h3>Difficulty:</h3>
+            <button class="diff-btn active" data-diff="easy">Easy</button>
+            <button class="diff-btn" data-diff="medium">Medium</button>
+            <button class="diff-btn" data-diff="hard">Hard</button>
+        </div>
+     </div>
+     <div class="games">
+    <div class="contenar">
+    <div class="game">
+        <button class="element"></button>
+        <button class="element"></button>
+        <button class="element"></button>
+        <button class="element"></button>
+        <button class="element"></button>
+        <button class="element"></button>
+        <button class="element"></button>
+        <button class="element"></button>
+        <button class="element"></button>  
+        <button id="reset">Reset game</button>
+    </div>
+    </div>
+    <div class="msg hide">
+        <p class="para" ><b>Winner</b></p>
+         
+        <button id="newgame">new game</button>
+    </div>
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>
